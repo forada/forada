@@ -1,0 +1,160 @@
+a:link {
+    color: #d90c13;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #d90c13;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #d90c13;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: #d90c13;
+    background-color: transparent;
+    text-decoration: none;
+}
+#a{
+	letter-spacing: 3px;
+	padding:50px 50px;
+	margin-top: 100px;
+	margin-bottom:100px;
+	font-size: 4;
+}
+nav {
+	font-family:arial;
+	position:relative;
+	TOP:30px;
+	LEFT:300px;
+	BOTTOM:10px;
+}
+#gray_background{
+	margin-top:50px;
+	width:1325px;
+	position:absolute;
+	left:20px;
+	top:400px;
+}
+#text{
+	position:absolute;
+	top:480px;
+	left:30px;
+}
+#text2{
+	position:absolute;
+	top:580px;
+	left:30px;
+}
+h1{
+	color: #01415F;
+}
+h2{
+	color: #000E17;
+}
+body {
+    font-family: Railway Thin;
+    transition: background-color .5s;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:  #000e17;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 50px 20px 20px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #fed20c;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#spotlight_container{
+	position:absolute;
+	top:550px;
+	left:30px;
+}
+div.img {
+    border: 1px solid #ccc;
+	margin-right:20px;
+	margin-top:40px;
+}
+
+div.img:hover {
+    border: 2px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+	font-family: Railway Thin;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
