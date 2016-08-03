@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="icon" href="flower.png">
+	
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<!-- jQuery Library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script language="javascript" type="text/javascript"></script>
+   
+    <link href="bootstrap.min.css" rel="stylesheet">
+<link href="webpage.css" rel="stylesheet">
+    <link href="full-slider.css" rel="stylesheet">
+<link rel ="stylesheet" type="text/css" href="index.css">
+
+</head>
+<script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 1500);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+</body>
+
+<body>
+<div style="display:none;" id="myDiv" class="animate-bottom">
+		
+<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+     
+<div class="container-fluid">
+	<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+		</div>
+		<div class="col-md-4">
+			<img src="logo.jpg" alt="logo" width="350" height="350">
+		</div>
+		<div class="col-md-4"><h2>
+			<script language = "JavaScript">
+			var now = new Date();
+			var dayNames = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+			var monNames = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+			document.write(" " + dayNames[now.getDay()] + " " + monNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear());
+			</script></h2>
+		</div>
+	</div>
+	</div>
+	<div class="container">
+<!--<div id= "header" style="background-color:white;">-->
+	<div class="row">
+	<div class="col-md-12">
+	<div class="row">
+	<div class="col-md-2">
+		<span style="font-size:25px;cursor:pointer;font-family:Existence;" onclick="openNav()"><font color="#d90c1e">☰ Menu</font></span>
+	</div>
+	<div class="col-md-2">
+		<a href="homepage.html" id="a" font-family="arial">HOMEPAGE</a>   
+	</div>
+	<div class="col-md-2">
+		<a href="about.html" id="a" font-family="arial">ABOUT</a>   
+	</div>
+	<div class="col-md-2">
+		<a href="spotlight.html" id="a" font-family="arial">SPOTLIGHT</a>
+	</div>
+	<div class="col-md-4">
+		<a href="contribute.html" id="a" font-family="arial">CONTRIBUTE</a>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+	  <a href="non_profit_organizations.html">Non-Profit Organizations</a>
+	  <a href="tech_companies.html">Tech Companies</a>
+	  <a href="awareness.html">Awareness</a>
+	  <a href="discover.html">Discover</a>
+
+	</div>
+</div>
+
+	<script>
+	function openNav() {
+		document.getElementById("mySidenav").style.width = "350px";
+		document.getElementById("main").style.marginLeft = "350px";
+		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+	}
+	function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft= "0";
+		document.body.style.backgroundColor = "white";
+	}
+	</script>
+	<script>
+		$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+	</script>
+	<script>
+	$(document).ready(function () {
+    	$(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    	});
+    	$('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+        });
+        });
+	</script>
+<div class="container-fluid">	
+<hr style="width: 100%; color: black; height: 1px; background-color:black;" />
+<br><br>
+
+<div id="gray_background">
+		<div>
+			<h1><b> About Us</b></h1>
+		</div>
+		<p style="padding-top: 10px;"> Formed on July 2016, for {ada} was created by four female coders.
+	As the technology industry has continued to expand, many studies have shown that the percentage of girls interested or pursuing STEM has been very small compared to that of boys.
+	This is because of what each gender is exposed to, girls are encouraged to pursue more “feminine” careers such as dancers or writers, while boys typically are encouraged to be scientists or athletes.
+	What girls are not told is that many times STEM is incorporated into a wide variety of fields, from art to film.
+	Due to this lack of STEM exposure to young girls, our group is creating a community powered website that brings awareness to all things tech related.
+	We hope to provide encouragement to young girls to pursue STEM fields by providing role models and a place where girls can encourage each other and help each other find success in their respective fields. 
+	</p>
+		<div style="padding-bottom: 10px;">
+			<h1><b>The Team</b></h1>	
+		</div>
+		<div class="container">
+			<div class="row" style="padding-bottom: 155px;">
+				<div class="col-md-3">
+					<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Everytime you see a pug, think of me, Gabriella Adam. I am that vertically challanged Asian who sits quietly in the front of the class. Part-time ninja full-time student.">
+					<img src="gaby.jpg" alt="Gabriella Adam" class="img-circle" width="160px" height="160px">
+					</button>	
+				</div>
+				<div class="col-md-3">
+					<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="My name is Michelle Garcia but my closer friends call me Misha. I love playings games, learning about computers, and I also really enjoy creating things using code. It's my dream to be able to travel all over the world.">
+					<img src="michelle.jpg" alt="Michelle Garcia" class="img-circle" width="160px" height="160px">
+					</button>
+				</div>
+				<div class="col-md-3">
+					<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Bianca Davis is a high school student at everglades High School. She loves to dance and watch  a variety of TV shows on Netflix such as Empire and Scandal. She hopes that her work on this web site inspires you to code!">
+					<img src="bianca.jpg" alt="Bianca Davis" class="img-circle" width="160px" height="160px">
+					</button>
+				</div>
+				<div class="col-md-3">
+					<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Hi, my name is Myrtle Valpoort. I am a soft and sensitive marshmallow with no ability to ever stop talking. I ramble about the things I love and fight to better the things I don't. I am a self-proclaimed Hamilton expert with an extensive knowledge on the most random things.   ">
+						<img src="myrtle.jpg" alt="Myrtle Valpoort" class="img-circle" width="160px" height="160px"></button>
+				</div>
+				
+			</div>
+		</div>
+		<div>
+			<h1><b>Community Guidelines</b> </h1>
+		</div>
+		<ul>
+		<li><b>Be respectful:</b> Since this is a community, we want it to be a place where people can openly express themseleves without fear of being judged so please respect others opinions.</li>
+		<li><b>Be kind:</b> If you have something to say be kind, discussions are welcome not arguments.</li>
+		<li><b> Be mindful:</b> If copying content from another site please make sure to cite them and their credentials.</li>
+		<li><b> Have fun!</b> Other than these basic rules, we urge you to have fun and enjoy speaking to others! 
+		Also don't be afraid to post or submit an article, we'd love to read what you have to share. :) </li>
+	</ul>
+</div>	
+	<!--FOOTER-->	
+	<div class="footer" background="red">
+    	
+        <div class="container">
+            <div class="row">
+                <!-- Contact us form -->
+                <div class="col-md-4">
+                    <div class="headline">
+                        <h3>CONTACT US</h3>
+                    </div>
+                    <hr />
+                    <div class="content">
+                        <p>
+                            300 NE 2nd Ave, Miami, FL 33132<br />
+                            <br />
+                           
+                           
+                        </p>
+                    </div>
+                </div>
+                <!-- Go social -->
+                <div class="col-md-4">
+                    <div class="headline">
+                        <h3>Join our cause</h3>
+                        <p>
+                           
+                        </p>
+                    </div>
+                    <hr />
+                    <div class="content">
+                        <p>
+                            Have any article submissions? Interested in advertising? <br />
+                           We would love to hear from you!<br />
+                           Contact us: for4ada@gmail.com<br/>	
+                            
+                        </p>
+                    </div>
+                </div>
+                <!-- Subscibe -->
+                <div class="col-md-4">
+                    <div class="headline">
+                        <h3>SUBSCRIBE</h3>
+                    </div>
+                    <hr />
+                    <div class="content">
+                        <p>
+                            Get adaletter in your inbox every Saturday!<br />
+                            <a href="http://eepurl.com/cahuhr"><span style="color:black;">Subscribe here:</span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--END OF FOOTER-->
+	<div>
+	 	 <a href="#" class="scrollup">To Top</a>
+	 </div>
+
+</div>
+</body>
+</html>

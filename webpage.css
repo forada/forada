@@ -1,0 +1,334 @@
+a:link {
+    color: #d90c13;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #d90c13;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #fed20c;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: #d90c13;
+    background-color: transparent;
+    text-decoration: none;
+}
+a{
+	letter-spacing: 3px;
+	font-family:Existence;
+	font-size:25px;
+}
+@font-face{
+	font-family:"Existence";
+	src:url(Existence-Light.otf);
+}
+h1{
+	font-family:Existence;
+	font-size:40px;
+	color:#01415f;
+}
+h2{
+	font-family:Existence;
+	font-size:30px;
+	color:#01415f;
+}
+h4{
+	font-family:Existence;
+	font-size:25px;
+	color:#01415f;
+}
+p{
+	font-family:Existence;
+	font-size:20px;
+	color:black;
+}
+ul{
+	font-family:Existence;
+	font-size:20px;
+	color:black;
+}
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+#backgroundimg{
+   background: url(indexbackground2.jpg); 
+   background-repeat:no-repeat;
+   background-size: cover;
+   opacity:0.90; 
+   filter: alpha(opacity=90);
+}
+#logo{
+   background-color:transparent;
+    background-repeat:no-repeat;
+}
+#button{
+   background-color: transparent;
+    background-repeat:no-repeat;
+}
+/*MENU BAR*/
+body {
+    font-family: Railway Thin;
+    transition: background-color .5s;
+    margin-bottom: 200%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:  #000e17;
+    opacity:0.90; 
+    filter: alpha(opacity=90);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 50px 20px 20px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #fed20c;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+div.img {
+    border: 1px solid #ccc;
+	margin-right:20px;
+	margin-top:40px;
+}
+
+div.img:hover {
+    border: 2px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+    font-family: "Existence";
+    font-size:20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#gray_background{
+	background-color:#e0e0d1;
+	border-style:solid;
+	border-width:5px;
+	border-color: #e0e0d1;
+	border-radius:5px;
+	margin-left: 10px;
+	margin-bottom:10px;
+}
+#grouppic{
+	margin-left:400px;
+}
+
+
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #000e17;
+  border-radius: 50%;
+  border-top: 16px solid #d90c1e;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1.5s;
+  animation-name: animatebottom;
+  animation-duration: 1.5s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+}
+
+.scrollup {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    display: none;
+    text-indent: -99px;
+    background: url('up.jpg') no-repeat;
+}
+
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 10px #99b3bf;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+background: #01415f; 
+box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #4d7a8f;
+}
+
+.footer {
+    background-color: #3f8797;
+   
+    bottom: 0;   
+    color: white;
+    width: 100%;
+    height: 230px;
+    font-family: 'Lato', sans-serif;    
+}

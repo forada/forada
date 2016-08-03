@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="icon" href="flower.png">
+	
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<!-- jQuery Library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script language="javascript" type="text/javascript"></script>
+   
+    <link href="bootstrap.min.css" rel="stylesheet">
+<link href="webpage.css" rel="stylesheet">
+    <link href="full-slider.css" rel="stylesheet">
+<link rel ="stylesheet" type="text/css" href="index.css">
+
+</head>
+
+<script>
+var myVar;
+function myFunction() {
+    myVar = setTimeout(showPage, 1500);
+}
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+</body>
+
+<body>
+<div style="display:none;" id="myDiv" class="animate-bottom">
+	
+<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+     
+<div class="container-fluid">
+	<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+		</div>
+		<div class="col-md-4">
+			<img src="logo.jpg" alt="logo" width="350" height="350">
+		</div>
+		<div class="col-md-4"><h2>
+			<script language = "JavaScript">
+			var now = new Date();
+			var dayNames = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+			var monNames = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+			document.write(" " + dayNames[now.getDay()] + " " + monNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear());
+			</script></h2>
+		</div>
+	</div>
+	</div>
+	<div class="container">
+<!--<div id= "header" style="background-color:white;">-->
+	<div class="row">
+	<div class="col-md-12">
+	<div class="row">
+		<div class="col-md-2">
+			<span style="font-size:25px;cursor:pointer;font-family:Existence;" onclick="openNav()"><font color="#d90c1e">☰ Menu</font></span>
+		</div>
+		<div class="col-md-2">
+			<a href="homepage.html" id="a" font-family="arial">HOMEPAGE</a>   
+		</div>
+		<div class="col-md-2">
+			<a href="about.html" id="a" font-family="arial">ABOUT</a>   
+		</div>
+		<div class="col-md-2">
+			<a href="spotlight.html" id="a" font-family="arial">SPOTLIGHT</a>
+		</div>
+		<div class="col-md-4">
+			<a href="contribute.html" id="a" font-family="arial">CONTRIBUTE</a>
+		</div>
+	</div>
+	</div>
+	</div>
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+		  	<a href="non_profit_organizations.html">Non-Profit Organizations</a>
+			<a href="tech_companies.html">Tech Companies</a>
+			<a href="awareness.html">Awareness</a>
+			<a href="discover.html">Discover</a>
+
+		</div>
+</div>
+
+	<script>
+	function openNav() {
+		document.getElementById("mySidenav").style.width = "350px";
+		document.getElementById("main").style.marginLeft = "350px";
+		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+	}
+	function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft= "0";
+		document.body.style.backgroundColor = "white";
+	}
+	</script>
+	
+	<script>
+	$(document).ready(function () {
+    	$(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    	});
+    	$('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+        });
+        });
+	</script>
+
+	<hr style="width: 100%; color: black; height: 1px; background-color:black;" />
+	<br><br>
+
+<div id="gray_background">	
+<div class="container-fluid">	
+
+	<div class="container-fluid">
+		<h1><b>Spotlight </b></h1>
+	</div>
+
+	<div class="container-fluid">
+		<div class="responsive">
+		  <div class="img">
+			<a href="img_fjords.jpg" >
+			  <a href="https://www.linkedin.com/in/piacrea7ive" target="_blank"><img src="pia_celestino.jpg" alt="Pia Celestino" width="300" height="200"></a>
+			</a>
+			<div class="desc">Pia Celestino</div>
+		  </div>
+		</div>
+
+
+		<div class="responsive">
+		  <div class="img">
+			<a  href="img_forest.jpg">
+			  <a href="https://www.linkedin.com/in/nikkinovo"target="_blank"><img src="nikki_novo.jpg" alt="Nikki Novo" width="600" height="400"></a>
+			</a>
+			<div class="desc">Nikki Novo</div>
+		  </div>
+		</div>
+		
+		<div class="responsive">
+		  <div class="img">
+			<a href="img_lights.jpg" >
+			  <a href="https://www.linkedin.com/in/allisoncammack"target="_blank"><img src="allison_cammack.jpg" alt="Allison Cammack" width="600" height="400"></a>
+			</a>
+			<div class="desc">Allison Cammack</div>
+		  </div>
+		</div>
+
+		<div class="responsive">
+		  <div class="img">
+			<a href="img_lights.jpg" >
+			  <a href="https://en.wikipedia.org/wiki/Meg_Whitman"target="_blank"><img src="meg_whitman.jpg" alt="Meg Whitman" width="600" height="400"></a>
+			</a>
+			<div class="desc">Meg Whitman</div>
+		  </div>
+		</div>
+		
+		<div class="responsive">
+		  <div class="img">
+			<a href="img_lights.jpg">
+			  <a href="https://en.wikipedia.org/wiki/Marissa_Mayer"target="_blank" ><img src="marissa_mayer.jpg" alt="Marissa Mayer" width="600" height="400"></a>
+			</a>
+			<div class="desc">Marissa Mayer</div>
+		  </div>
+		</div>
+	
+		<div class="responsive">
+		  <div class="img">
+			<a  href="img_lights.jpg">
+			  <a href="https://en.wikipedia.org/wiki/Sheryl_Sandberg"target="_blank"><img src="sheryl_sandberg.jpg" alt="Sheryl Sandberg" width="600" height="400"></a>
+			</a>
+			<div class="desc">Sheryl Sandberg</div>
+		  </div>
+		</div>
+	
+		<div class="responsive">
+		  <div class="img">
+			<a  href="img_lights.jpg" >
+			  <a href="https://en.wikipedia.org/wiki/Susan_Wojcicki"target="_blank"><img src="susan_wojcicki.jpg" alt="Susan Wojcicki" width="600" height="400"></a>
+			</a>
+			<div class="desc">Susan Wojcicki</div>
+		  </div>
+		</div>
+	
+		<div class="responsive">
+		  <div class="img">
+			<a href="img_lights.jpg">
+			  <a href="https://en.wikipedia.org/wiki/Ginni_Rometty"target="_blank" ><img src="virginia_rometty.jpg" alt="Virginia Marie 'Ginni' Rometty" width="600" height="400"></a>
+			</a>
+			<div class="desc">Virginia Marie "Ginni" Rometty</div>
+		  </div>
+		</div>
+	</div>
+</div>
+</div>
+	
+	
+	<!--FOOTER-->	
+	<div class="footer" background="red">
+    	
+        <div class="container">
+            <div class="row">
+                <!-- Contact us form -->
+                <div class="col-md-4">
+                    <div class="headline">
+                        <h3>CONTACT US</h3>
+                    </div>
+                    <hr />
+                    <div class="content">
+                        <p>
+                            300 NE 2nd Ave, Miami, FL 33132<br />
+                            <br />
+                           
+                           
+                        </p>
+                    </div>
+                </div>
+                <!-- Go social -->
+                <div class="col-md-4">
+                    <div class="headline">
+                        <h3>Join our cause</h3>
+                        <p>
+                           
+                        </p>
+                    </div>
+                    <hr />
+                    <div class="content">
+                        <p>
+                            Have any article submissions? Interested in advertising? <br />
+                           We would love to hear from you!<br />
+                           Contact us: for4ada@gmail.com<br/>	
+                            
+                        </p>
+                    </div>
+                </div>
+                <!-- Subscibe -->
+                <div class="col-md-4">
+                    <div class="headline">
+                        <h3>SUBSCRIBE</h3>
+                    </div>
+                    <hr />
+                    <div class="content">
+                        <p>
+                            Get adaletter in your inbox every Saturday!<br />
+                            <a href="http://eepurl.com/cahuhr"><span style="color:black;">Subscribe here:</span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--END OF FOOTER-->
+
+	<div>
+		<a href="#" class="scrollup">To Top</a>
+	</div>
+	
+</div>
+</body>
+</html>

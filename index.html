@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<!-- jQuery Library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script language="javascript" type="text/javascript"></script>
+   
+    <link href="bootstrap.min.css" rel="stylesheet">
+<link href="webpage.css" rel="stylesheet">
+    <link href="full-slider.css" rel="stylesheet">
+<link rel ="stylesheet" type="text/css" href="index.css">
+
+<link rel="stylesheet" href="magic.css">
+
+</head>
+<script>
+	setTimeout(function(){
+	$(button).addClass('magictime vanishIn');
+	}, 80);
+	setTimeout(function(){
+	$(logo).addClass('magictime vanishIn');
+	}, 80);
+		
+	var myVar;
+	function myFunction() {
+	myVar = setTimeout(showPage, 1500);
+	}
+		
+	function showPage() {
+	document.getElementById("loader").style.display = "none";
+	document.getElementById("myDiv").style.display = "block";
+	}
+</script>
+
+<div class="container-fluid">
+			
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+</body>
+
+<body id="backgroundimg">
+		
+	
+<div style="display:none;" id="myDiv" class="animate-bottom">
+	
+    <div class="container">
+    <div class="row">
+	    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+	    </div>
+	    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+		<img id="logo" src="logo.png" alt="logo" width="90%" height="90%">
+	    </div>
+	    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+	    </div>
+    </div>
+    </div>
+    
+    <br>
+    
+    <div class="container">
+    <div class="row">
+	    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+	    </div>
+	    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">	
+		<a href="homepage.html"><img id="button" src="button.png" alt="button" width="90%" height="90%" onclick=" "></a>
+			
+	    </div>
+	    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+	    </div>
+    </div>
+    </div>
+    
+</div>
+</div>
+</body>
+</html>
